@@ -26,5 +26,5 @@ jobs:
         shell: bash
 
       - name: Build with Gradle
-        run: ./gradlew auto
+        run: ./gradlew.bat build
         shell: bash
